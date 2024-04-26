@@ -1,0 +1,116 @@
+@import url(https://fonts.googleapis.com/css?family=Lilita+One:regular);
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("../images/edit_badges_background.jpg");
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.navbar {
+    margin-bottom: 30px;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar-brand {
+    margin-right: auto;
+}
+
+.navbar-nav:last-child {
+    margin-left: auto;
+}
+
+#MyBadges{
+   text-align: center;
+   margin-top: 100px ;
+   font-family: "Lilita One", sans-serif;
+   font-size: 500%;
+}
+
+.badge-container {
+    padding: 20px;
+    margin-top: 100px;
+    background-color: rgba(0, 0, 0, 0.45);
+    border-radius: 10px;
+}
+
+.carousel-item img {
+    max-width: 50%;
+    height: auto;
+    margin: auto;
+}
+
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: auto;
+    padding: 0 1rem;
+    font-size: 4rem;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 30px; 
+    height: 30px; 
+}
+
+
+.col-md-6.offset-md-3 {
+    margin-top: 20px; 
+    margin-bottom: 50px;;
+}
+
+
+.BackAndSaveButtonContainer {
+    bottom: 10px; 
+    left: 10px;
+    z-index: 1000; 
+    text-align: center;
+    padding-bottom: 10%;
+}
+
+
+.Button {
+    background-color: grey;
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid #000;
+    border-radius: 5px;
+    transition: transform 0.5s ease;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    display: block;
+    text-align: center; 
+    text-decoration: none; 
+}
+
+.Button p {
+    margin: 0;
+}
+
+.Button:hover {
+    background-color: darkgrey;
+    transform: scale(1.1);
+}
+
+.Save {
+    right: auto; 
+}
+
+
+footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    text-align: center;
+    padding: 1px 0;
+}
+
+footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}

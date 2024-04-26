@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>About Us</title>
+    <link rel="stylesheet" href="../css/styles_about.css" />
+    <link href="../css/bootstrap.min.css" rel="stylesheet" />
+    <script src="../scripts/jquery/jquery-3.6.1.min.js"></script>
+    <script src="../scripts/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="../scripts/aboutus.js"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="../images/tent-line.png" alt="logo" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapsibleNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="ContactUs.html">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="AboutUs.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="FAQ.html">FAQ</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="LogIn.html">Sign In</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link square-border" href="SignUp.html"
+                >Get Started</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="row founders-section">
+        <div class="col-md-8">
+          <!-- Founders section -->
+          <h1>Founders</h1>
+          <div id="founder-description-container">
+            <!-- Founder descriptions -->
+            <div id="founder1">
+              <h2>Samuele</h2>
+              <p>
+                Samuele, a 21-year-old from Caracas, Venezuela, left his
+                hometown behind to pursue his academic goals, and in his project
+                group, he found not just classmates but also a second family.
+                Driven by a love of the great outdoors, mountain biking, and
+                kitesurfing, Samuele combines his academic interests with a
+                dedication to environmental advocacy, questioning the status quo
+                and igniting change. Samuele is a passionate force prepared to
+                leave his mark on Denmark and beyond in a world where apathy
+                reigns.
+              </p>
+            </div>
+            <div id="founder2" style="display: none">
+              <h2>Ana</h2>
+              <p>
+                Ana is a 21-year-old student from Venezuela who is currently
+                pursuing her dream of studying in an international environment.
+                Her passion for running and outdoor activities has inspired her
+                to become an advocate for the environment. She believes that
+                everyone should take action to protect our planet, but
+                understands that it can be overwhelming to look at the big
+                picture. That’s why she’s excited about the inventions of
+                EcoHero, which make it easy for people to make a difference in
+                their own way.
+              </p>
+            </div>
+            <div id="founder3" style="display: none">
+              <h2>Eric</h2>
+              <p>
+                Eric, at the age of 23, is one of the founders of EcoHeros. At
+                the age of 17, he left his home country, Venezuela, in pursuit
+                of a dream, discover the word. His passion for football, hiking,
+                cycling, and the gym, as well as his love for any sport he can
+                share experiences, led him to create EcoHeroes. Eric is
+                committed to promoting sustainable habits and making the world a
+                greener place through his platform, where everyone can share
+                their achievements making a big change.
+              </p>
+            </div>
+            <div id="founder4" style="display: none">
+              <h2>Eliza</h2>
+              <p>
+                Eliza is a 21-year-old GBE student from Poland. She moved to
+                Denmark a little more than 2 years ago and she can honestly say
+                that it was the best decision of her life. Eliza loves meeting
+                new people; hearing about their lives and their experiences
+                motivates her like nothing else. That passion inspired her and
+                made her desire to make an impact on people’s everyday lives.
+                Then, the opportunity to develop EcoHero came - a concept that
+                ignited Eliza's passion for making a visible impact on people's
+                everyday lives. The platform is not just a culmination of her
+                aspirations; it's a testament to her unwavering commitment to
+                making a meaningful difference in the world.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <!-- Carousel for founders' images -->
+          <div id="foundersCarousel" class="carousel slide carousel-fade">
+            <div class="carousel-inner">
+              <div class="carousel-item active" id="founder1-img">
+                <img
+                  src="../images/founder1.png"
+                  class="d-block w-100"
+                  alt="Founder 1"
+                />
+              </div>
+              <div class="carousel-item" id="founder2-img">
+                <img
+                  src="../images/founder2.png"
+                  class="d-block w-100"
+                  alt="Founder 2"
+                />
+              </div>
+              <div class="carousel-item" id="founder3-img">
+                <img
+                  src="../images/founder3.png"
+                  class="d-block w-100"
+                  alt="Founder 3"
+                />
+              </div>
+              <div class="carousel-item" id="founder4-img">
+                <img
+                  src="../images/founder4.png"
+                  class="d-block w-100"
+                  alt="Founder 4"
+                />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#foundersCarousel"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#foundersCarousel"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6 idea-section">
+          <!-- How the idea was born section -->
+          <h2 class="title2">How the Idea Was Born</h2>
+          <p class="text2">
+            The idea of EcoHero was born out of a desire to address the growing
+            concern over environmental issues. The team, consisting of four
+            university students from Via University College Denmark, was tired
+            of hearing about the problems facing our planet and the lack of
+            action being taken to address them. They realized that many people
+            want to help but don’t know where to start or feel overwhelmed by
+            the scale of the problem. That’s how EcoHero began - as a way to
+            help people find motivation for helping the planet by giving them
+            small, achievable tasks that would encourage them to continue. The
+            team, a combination of environmental fanatics and software
+            developers, worked tirelessly to bring the EcoHero of today to life.
+          </p>
+        </div>
+        <div class="col-md-5 mission-section">
+          <!-- Our mission section -->
+          <h2 class="title2">Our Mission</h2>
+          <p class="text2">
+            At EcoHero, our mission is to empower people to take action and make
+            a positive impact on the environment. We believe that small,
+            achievable tasks can make a big difference, and we’re here to help
+            you find motivation and inspiration to make a change. Our platform
+            is designed to help you track your progress and see the impact
+            you’re making. We’re inspired by the UNESCO 17 goals, and we’re
+            committed to making a difference in the world.
+          </p>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p>© 2023 EcoHero. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

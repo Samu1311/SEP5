@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url("../images/AboutUs_background.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.carousel-fade .carousel-item {
+  opacity: 0;
+  transition-duration: 1s;
+  transition-property: opacity;
+}
+
+.carousel-fade .carousel-item.active {
+  opacity: 1;
+}
+
+.founders-section {
+  width: 100%;
+  margin: 20px auto;
+  background: rgba(0, 0, 0, 0.801);
+  padding: 30px;
+  border-radius: 10px;
+  color: #fff;
+}
+
+#founder-description-container h2 {
+  font-size: 40px;
+}
+
+#founder-description p {
+  font-size: 16px;
+}
+
+#founder1 h2 {
+  color: rgb(147, 225, 138);
+}
+#founder2 h2 {
+  color: rgb(253, 255, 125);
+}
+#founder3 h2 {
+  color: rgb(121, 200, 231);
+}
+#founder4 h2 {
+  color: rgb(248, 132, 151);
+}
+
+.idea-section,
+.mission-section {
+  width: 90%;
+  margin: 20px auto;
+  background: rgba(0, 0, 0, 0.801);
+  padding: 3%;
+  border-radius: 10px;
+  padding-left: 10%;
+}
+
+.title2 {
+  font-size: 220%;
+  text-align: justify;
+  color: rgb(94, 142, 155);
+}
+
+.text2 {
+    font-size: 130%;
+    text-align: justify;
+    color: rgb(255, 255, 255);
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  text-align: center;
+  padding: 1px 0;
+}
+
+footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.navbar {
+  margin-bottom: 30px;
+  top: 0;
+  z-index: 1000; 
+}
+
+.navbar-brand {
+  margin-right: auto; 
+}
+
+.navbar-nav:last-child {
+  margin-left: auto;
+}
+
+.square-border {
+  padding: 8px 20px;
+  border: 2px solid #ffffff;
+  border-radius: 30px;
+}
+
+.square-border:hover {
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.3
+  );
+  color: #ffffff;
+  border-color: #ffffff;
+  text-decoration: none;
+}

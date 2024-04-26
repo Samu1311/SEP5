@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-image: url("../images/AboutUs_background.jpg");
+  }
+
+.FAQ_picture {
+    padding: 10px;
+    margin-left: 30%;
+}
+
+#top_picture{
+  max-width: 60%;
+}
+
+  input[type="text"],
+  textarea {
+    width: 100%;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+  }
+
+  .faq-item {
+    margin-bottom: 10px;
+    width: 60%;
+    margin: 100px auto;
+    background: rgba(0, 0, 0, 0.564);
+    padding: 30px;
+    border-radius: 10px;
+    text-align: left;
+    color: #fff;
+}
+.question {
+    cursor: pointer;
+}
+.answer {
+    display: none;
+    margin-top: 5px;
+}
+
+.active-question,
+.active-answer {
+    padding: 5px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.active-answer {
+    display: block !important; /* Show the active answer */
+}
+
+  footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    text-align: center;
+    padding: 1px 0;
+  }
+  
+  footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .navbar-brand {
+    margin-right: auto;
+}
+
+
+.navbar-nav:last-child {
+    margin-left: auto;
+}
+
+.square-border {
+    padding: 8px 20px;
+    border: 2px solid #ffffff;
+    border-radius: 30px;
+
+}
+
+.square-border:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: #ffffff; 
+    border-color: #ffffff;
+    text-decoration: none;
+}

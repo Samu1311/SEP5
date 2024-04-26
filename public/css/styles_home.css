@@ -1,0 +1,166 @@
+@import url(https://fonts.googleapis.com/css?family=Lilita+One:regular);
+
+#HomePage {
+  margin: 0;
+  padding: 0;
+  background-color: #265069;
+}
+
+/*NavBar*/
+.navbar-brand {
+  margin-right: auto;
+}
+
+.navbar-nav:last-child {
+  margin-left: auto; 
+}
+
+.square-border {
+  padding: 8px 20px;
+  border: 2px solid #ffffff;
+  border-radius: 30px;
+}
+
+.square-border:hover {
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.3
+  );
+  color: #ffffff;
+  border-color: #ffffff;
+  text-decoration: none;
+}
+
+/*Background*/
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("../images/a8dr_05f3_210816.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+/*Sustainable News Section */
+
+.Sustainable-container {
+  margin-top: 10%;
+}
+
+.Sustainable-container h1 {
+  margin-top: 5%;
+  font-size: 700%;
+  color: #ffffff;
+  font-family: "Lilita One", sans-serif;
+  text-shadow: 4px 4px 8px rgba(0, 0, 0, 1);
+}
+
+.Sustainable-container h2 {
+  margin-top: 2%;
+  font-size: 200%;
+  color: #22223c;
+  font-family: "Lilita One", sans-serif;
+}
+
+.Sustainable-container h3 {
+  margin-top: 30%;
+  font-size: 300%;
+  color: #ffffff;
+  font-family: "Lilita One", sans-serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/*News*/
+
+#titleNews {
+  margin-top: 50%;
+  font-size: 500%;
+  color: #19162d;
+  font-family: "Lilita One", sans-serif;
+  text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+/*Polaroids Section*/
+
+.img-fluid {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+/* Polaroid container styling */
+.subContainer {
+  margin-top: 10%;
+}
+
+.polaroid {
+  width: 300px;
+  height: 300px;
+  padding: 5%;
+  margin: 20px; /* Space between polaroids */
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+  border-radius: 10px;
+}
+
+/* Image styling */
+.polaroid img {
+  width: 100%;
+  height: 90%;
+  display: block;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.caption {
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  width: 100%;
+  padding: 25px;
+  text-align: center;
+  color: #333;
+  box-sizing: border-box;
+
+  p {
+    font-size: 8px;
+  }
+
+  h4 {
+    font-size: 20px;
+  }
+}
+
+.button1 {
+  text-align: center;
+  justify-content: center;
+  margin-top: 7%;
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: 20px;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  text-align: center;
+  padding: 1px 0;
+  margin-top: 5%;
+}
+
+footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
